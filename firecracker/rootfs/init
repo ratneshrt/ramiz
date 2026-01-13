@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mount -t proc proc /proc
+mount -t sysfs sys /sys
+
+echo "Firecracker VM booted"
+
+sh /run.sh
+
+poweroff -f
