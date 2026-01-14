@@ -1,1 +1,4 @@
-rootf.ext4
+firecracker/rootfs.ext4
+firecracker/kernel/vmlinux
+firecracker/kernel
+firecracker/python

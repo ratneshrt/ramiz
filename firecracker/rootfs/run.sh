@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 /code/main.py
+/usr/local/bin/python3 /code/main.py
